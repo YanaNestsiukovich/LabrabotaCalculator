@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">CalcKotlin</string>
-    <string name="firstNumber">1 число</string>
-    <string name="secondNumber">2 число</string>
+    <string name="firstNumber">1 N</string>
+    <string name="secondNumber">2 N</string>
     <string name="forTilda">операция ~ выполнится только для первого числа</string>
     <string name="forShl">"побитовый сдвиг влево выполняется для первого числа, количество битов для сдвига - второе число "</string>
     <string name="invalidData">Неверные данные</string>

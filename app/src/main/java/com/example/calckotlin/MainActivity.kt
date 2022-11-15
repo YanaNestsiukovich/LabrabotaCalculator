@@ -1,5 +1,6 @@
 package com.example.calckotlin
 
+import android.annotation.SuppressLint
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -8,6 +9,7 @@ import android.widget.TextView
 import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
+
     var enterNumView:TextView? = null
     var firstNumView:TextView? = null
     var secondNumView:TextView? = null
@@ -188,6 +190,7 @@ class MainActivity : AppCompatActivity() {
         }
         enterNumView?.setText(str)
     }
+    @SuppressLint("SuspiciousIndentation")
     fun giveAnswerAction(v:View){
         if(firstNumView?.text.toString() == "" || secondNumView?.text.toString() == ""){
             answerView?.text = getString(R.string.invalidData)
