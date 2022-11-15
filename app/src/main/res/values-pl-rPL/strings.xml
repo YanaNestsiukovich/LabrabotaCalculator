@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CalcKotlin</string>
+    <string name="firstNumber">1 liczba</string>
+    <string name="secondNumber">2 liczba</string>
+    <string name="forTilda">operacja ~ zostanie wykonana tylko dla pierwszej liczby</string>
+    <string name="forShl">przesunięcie bitowe w lewo jest wykonywane dla pierwszej liczby, liczba bitów do przesunięcia to druga liczba</string>
+    <string name="invalidData">Nieprawidłowe dane</string>
+</resources>

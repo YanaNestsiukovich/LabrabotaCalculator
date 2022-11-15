@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CalcKotlin</string>
+    <string name="firstNumber">1 number</string>
+    <string name="secondNumber">2 number</string>
+    <string name="invalidData">invalid data</string>
+    <string name="forShl">a bitwise shift to the left is performed for the first number, the number of bits to shift is the second number</string>
+    <string name="forTilda">the ~ operation will be performed only for the first number</string>
+</resources>
